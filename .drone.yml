@@ -1,4 +1,4 @@
-image: quay.io/dennybaa/diffy-onbuild:latest
+image: quay.io/dennybaa/droneunit-ubuntu
 script:
   - echo hello world
 services:
