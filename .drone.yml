@@ -1,6 +1,6 @@
 image: quay.io/dennybaa/diffy-onbuild:latest
 script:
   - echo hello world
-#  - sleep infinity
+  - sleep infinity
 services:
   - quay.io/dennybaa/diffy-onbuild:latest
