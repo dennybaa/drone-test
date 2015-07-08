@@ -1,4 +1,6 @@
-image: quay.io/dennybaa/diffy-onbuild:latest
+image: quay.io/dennybaa/droneunit-ubuntu:latest
 script:
   - echo hello world
   - sleep infinity
+services:
+  - quay.io/dennybaa/diffy-onbuild:latest
