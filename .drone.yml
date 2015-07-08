@@ -1,4 +1,6 @@
 image: quay.io/dennybaa/diffy-onbuild:latest
+env:
+  - DRONE_EXPOSED=world
 script:
   - echo hello world
   - sleep infinity
