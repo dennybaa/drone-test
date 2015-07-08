@@ -1,3 +1,4 @@
 image: quay.io/dennybaa/diffy-onbuild
+script:
   - echo hello world
   - sleep infinity
