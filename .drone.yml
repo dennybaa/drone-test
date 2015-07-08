@@ -3,4 +3,4 @@ script:
   - echo hello world
   - sleep infinity
 services:
-  - quay.io/dennybaa/diffy-onbuild
+  - quay.io/dennybaa/diffy-onbuild:latest
