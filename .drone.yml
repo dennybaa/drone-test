@@ -5,5 +5,7 @@ script:
   - echo "Hello $DRONE_EXPOSED"
   - echo "----"
   - cat  /hello
+  - which socat || true
+  - ps -A uxw
 services:
   - quay.io/dennybaa/diffy-onbuild:latest
